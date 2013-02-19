@@ -10,6 +10,27 @@
     <form id="form1" runat="server">
     <div>
     
+        principle amount:<br />
+        <asp:TextBox ID="loanAmount" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <br />
+        annual interest rate:<br />
+        <asp:TextBox ID="rate" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <br />
+        mortgage length:<br />
+        <asp:TextBox ID="mortgageLength" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <br />
+        <asp:Button ID="performCalcButton" runat="server" Text="Compute Monthly Cost" />
+        <br />
+        <br />
+        <br />
+        <asp:Label ID="results" runat="server"></asp:Label>
+    
     </div>
     </form>
 </body>
